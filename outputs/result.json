@@ -1,0 +1,16 @@
+{
+    "document_name": "test_invoice.pdf",
+    "extracted_data": {
+        "fields": {
+            "date": "23.05.2021",
+            "total_amount": "10"
+        },
+        "raw_text": "Bioplex\nINVOICE\nwe love chemistry\n5 Rue Bader\nINVOICE # BPXINV-00550\nNarbonne; Aude,\n11100\nDATE: 23.05.2021\nPhone: +33 140 260294\nTo:\nSHIP TO:\nRoger Bigot\nRoger Bigot\nbonbono\nbonbono\n4 Rue des Cites\n4 Rue des Cites\nAubervilliers , Seine-Saint-Denis, 93300\nAubervilliers , Seine-Saint-Denis, 93300\nPhone: +33 148 340990\nPhone: +33\n148 340990\nCOMMENTS OR SPECIAL INSTRUCTIONS:\nNone\nSALESPERSON\nP.O. NUMBER\nTERMS\nMarianne de Ia Guillaume\nBPXPO-00536\nDue after 30 days\nQUANTITY\nDESCRIPTION\nUNIT PRICE\nTOTAL\n10\nDextromethorphan polistirex\n12.45\n124.50\nBPXPN-00057\n25\nVenlafaxine Hydrochloride\n16.00\n400.00\nBPXPN-00012\n25\nMetoclopramide Hydrochloride (BPXPO-00537)\n9.99\n249.75\nBPXPN-00002\n10\nAvobenzone, octinoxate (BPXPO-00538)\n4.45\n44.50\nBPXPN-00027\n10\nVerapamil hydrochloride\n7.89\n78.90\nBPXPN-00066\n15\nTiagabine hydrochloride\n10.25\n153.75\nBPXPN-00017\n10\nZiprasidone hydrochloride (BPXPO-00537)\n34.99\n349.90\nBPXPN-00044\n10\nRisperidone\n34.99\n349.90\nBPXPN-00023\n10\nMetoprolol succinate\n34.99\n349.90\nBPXPN-00067\n10\nAcetaminophen\n34.99\n349.90\nBPXPN-00045\n15\nSorafenib\n16.00\n240.00\nBPXPN-00018\n15\nTelmisartan\n9.99\n149.85\nBPXPN-00022\n15\nFamotidine\n4.45\n66.75\nBPXPN-00068\n15\nMethylphenidate Hydrochloride\n7.89\n118.35\nBPXPN-00005\n100\nIbuprofen (BPXPO-00538)\n0.99\n99.00"
+    },
+    "llm_analysis": {
+        "document_type": "invoice",
+        "summary": "Invoice # BPXINV-00550 for Roger Bigot",
+        "validation": "partially_valid",
+        "confidence_score": 0.8
+    }
+}

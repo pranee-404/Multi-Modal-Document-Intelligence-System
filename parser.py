@@ -4,8 +4,17 @@ import re
 reader = easyocr.Reader(['en'], gpu=False)
 
 def extract_text(image):
-    results = reader.readtext(image, detail=0)
-    return "\n".join(results)
+    results = reader.readtext(image)
+    text_blocks = []
+    boxes = []
+
+    for (bbox, text, prob) in results:
+        text_blocks.append(text)
+        boxes.append(bbox)
+
+    full_text = "\n".join(text_blocks)
+
+    return full_text, boxes
 
 
 def extract_fields(text):

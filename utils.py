@@ -12,3 +12,17 @@ def pdf_to_image(pdf_path):
         img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
     
     return img
+
+import cv2
+
+def draw_boxes(image, boxes):
+
+    for box in boxes:
+        pts = [(int(x), int(y)) for x, y in box]
+
+        cv2.line(image, pts[0], pts[1], (0,255,0), 2)
+        cv2.line(image, pts[1], pts[2], (0,255,0), 2)
+        cv2.line(image, pts[2], pts[3], (0,255,0), 2)
+        cv2.line(image, pts[3], pts[0], (0,255,0), 2)
+
+    return image
